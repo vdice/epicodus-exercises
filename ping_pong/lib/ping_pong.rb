@@ -14,7 +14,7 @@ class Fixnum
         end
       end
     else
-      raise ArgumentError.new('input not greater than 0!')
+      raise ArgumentError.new('input must be a positive integer greater than 0')
     end
     ary
   end

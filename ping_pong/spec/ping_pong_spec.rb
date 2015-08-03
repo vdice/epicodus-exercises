@@ -22,4 +22,8 @@ describe('Fixnum#ping_pong') do
   it('should handle 0 input') do
     expect{0.ping_pong()}.to raise_error(ArgumentError)
   end
+
+  it('should handle negative integer input') do
+    expect{-1.ping_pong()}.to raise_error(ArgumentError)
+  end
 end
