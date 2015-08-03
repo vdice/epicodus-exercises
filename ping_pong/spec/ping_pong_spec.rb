@@ -20,6 +20,6 @@ describe('Fixnum#ping_pong') do
   end
 
   it('should handle 0 input') do
-    expect{0.ping_pong()}.to raise_error
+    expect{0.ping_pong()}.to raise_error(ArgumentError)
   end
 end
