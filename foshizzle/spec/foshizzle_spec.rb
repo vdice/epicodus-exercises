@@ -1,5 +1,5 @@
 require('rspec')
-require('fo_shizzle')
+require('foshizzle')
 
 describe('String#foshizzle') do
   it('returns a string as is when no "s" is present') do
